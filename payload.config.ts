@@ -5,11 +5,12 @@ import { VercelBlob } from "./src/config/vercel-blob";
 import { Media } from "./src/collections/media";
 import { Users } from "./src/collections/users";
 import { Projects } from "./src/collections/projects";
+import { Colors } from "./src/collections/colors";
 
 export default buildConfig({
   serverURL: process.env.PAYLOAD_ENDPOINT || "http://localhost:3000",
   editor: lexicalEditor(),
-  collections: [Users, Media, Projects],
+  collections: [Users, Media, Projects, Colors],
   secret: process.env.PAYLOAD_SECRET || "",
   db: postgresAdapter({
     pool: {
