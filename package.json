@@ -7,14 +7,14 @@
     "payload": "payload"
   },
   "dependencies": {
-    "@payloadcms/db-postgres": "^3.64.0",
-    "@payloadcms/next": "^3.64.0",
-    "@payloadcms/richtext-lexical": "^3.64.0",
-    "@payloadcms/storage-vercel-blob": "^3.64.0",
-    "next": "^15.5.6",
-    "payload": "^3.64.0",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "@payloadcms/db-postgres": "^3.66.0",
+    "@payloadcms/next": "^3.66.0",
+    "@payloadcms/richtext-lexical": "^3.66.0",
+    "@payloadcms/storage-vercel-blob": "^3.66.0",
+    "next": "^15.5.7",
+    "payload": "^3.66.0",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
   },
   "devDependencies": {
     "typescript": "5.9.3"
